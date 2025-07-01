@@ -5,6 +5,11 @@
 
 for i in range(10):
     print(i)
+    print_hello()
+
+
+def print_hello():
+    print('hello')
 
 def print_hi(name):
     # スクリプトをデバッグするには以下のコード行でブレークポイントを使用してください。
